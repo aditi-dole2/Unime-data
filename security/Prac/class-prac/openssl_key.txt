@@ -1,0 +1,33 @@
+opensssl- environment for https,sftp,
+contains libraries, command line
+commands call library
+webserverr calls library
+
+
+server:-> cloud:->client
+https: ->cloud:->browser
+
+
+pem= human readable format
+pkcs= cryptoer
+ca =cerrtification authority
+enc= encoding
+x509= certification
+rand= random
+cbc=  code block codification
+genrsa= generate the key
+
+
+server: ssl <-> client
+
+emails do not send files. 
+email works on smtp, pop
+email uses hyperlink/hypertext to send the files
+
+
+base64: transformation from binary to text
+web does not know what is a binary
+token is in b64 format
+any communication on web is sent by text
+ attachemnet in email is in binary
+

@@ -1,0 +1,24 @@
+31/10/20223
+ENCRYPTION
+
+without salt:
+openssl enc -e -in abc.docx -out cabc.docx -aes-128-cbc -nosalt -p
+enter AES-128-CBC encryption password: aditi
+Verifying - enter AES-128-CBC encryption password: aditi
+*** WARNING : deprecated key derivation used.
+key=A0394E8F2B0CC7A67573EFA8EB2F72B0
+iv =B2711421B0159FD8FF81EA63F2096247
+
+with salt:
+
+openssl enc -e -in abc.docx -out cabc.docx -aes-128-cbc -p
+enter AES-128-CBC encryption password:
+Verifying - enter AES-128-CBC encryption password:
+*** WARNING : deprecated key derivation used.
+Using -iter or -pbkdf2 would be better.
+salt=721D884A0F995AB4
+key=8DC2B7A9719C3409AB3C2E654D4ACDC6
+iv =DDC5873FF3466FA0B4F174DEED53F848
+
+
+
