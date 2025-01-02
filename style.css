@@ -1,0 +1,165 @@
+/*
+THEME NAME: web-project
+author: Aditi
+version: 1.0
+*/
+
+
+img{
+    max-width: 100%;
+}
+.page-numbers{
+    display: inline-block;
+    padding: 10px;
+    border: solid thin #aaa;
+    text-decoration: none;
+
+}
+.widget{
+    list-style: none;
+}
+/*footer*/
+footer{
+  background-color: antiquewhite;
+  align-items: center;
+}
+
+#menu-footer-menu-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  
+}
+
+#menu-footer-menu-links li {
+  margin: 0 15px;
+}
+
+#menu-footer-menu-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.3s ease;
+  
+}
+
+#menu-footer-menu-links a:hover {
+  color: #007bff;
+}
+/* Sidebar Container */
+#sidebar {
+  width: flex; /* Set the desired width of your sidebar */
+  height: flex; /* Set the full height of the viewport */
+  background-color:skyblue; /* Set the background color */
+  padding: 20px; /* Set padding as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for depth */
+  color: black;
+  font-size: 16px;
+  text-decoration: solid;
+text-decoration-color: black;
+}
+/*single post*/
+.card-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color:azure;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 26px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-meta {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.card-content {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+nav.navbar {
+  padding: 15px; /* Add padding as needed */
+  background-color: antiquewhite; /* Example background color for the navbar */
+  color: black; /* Example text color for the navbar */
+}
+
+.navbar-brand {
+  font-size: 24px; /* Example font size for the brand */
+  font-weight: bold; /* Example font weight for the brand */
+  color: white; /* Example text color for the brand */
+  text-decoration: none; /* Remove underlines from links */
+}
+
+.navbar-toggler {
+  background-color: #fff; /* Example background color for the toggler button */
+  border: 1px solid #ccc; /* Example border for the toggler button */
+  color: #333; /* Example text color for the toggler button */
+}
+
+/* Style the toggler icon (assuming it uses the default Bootstrap icon) */
+.navbar-toggler-icon {
+  background-color:blanchedalmond; /* Example color for the toggler icon */
+}
+/*primary menu*/
+ul#menu-primary-menu-links > li {
+  /* Your styles for the list items go here */
+  font-weight: bold;
+  /* Add more styles as needed */
+  display: block;
+  list-style-type: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  color: #57a8e2;
+  text-align: center;
+}
+/* Style for the main navigation */
+ul.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* Style for the main navigation items */
+ul.navbar-nav > li {
+  display: inline-block;
+  position: relative;
+}
+/* Style for the links in the main navigation */
+ul.navbar-nav > li > a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+}
+/* Style for the dropdown menu */
+ul.dropdown-menu {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Style for the dropdown menu items */
+ul.dropdown-menu > li {
+  display: block;
+}
+/* Show the dropdown menu on hover */
+ul.navbar-nav > li:hover > ul.dropdown-menu {
+  display: block;
+}
+
