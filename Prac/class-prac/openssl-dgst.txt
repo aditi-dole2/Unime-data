@@ -1,0 +1,7 @@
+everytime you edit a document and update the digest , it creates a different hash number.
+
+
+aditi_1920@Aditi:~/tempsys$ openssl dgst -sha256 abc.docx
+SHA2-256(abc.docx)= 7466e3569af79e2396831ae6ff8159981de981851fe20861a7510bbd0bd0e8b4
+aditi_1920@Aditi:~/tempsys$ openssl dgst -sha256 dabc.docx
+SHA2-256(dabc.docx)= 2ebf9145c52f0cb77539f5f6bca686a5e16fa78ed1f854923fd11d087c0cb334
